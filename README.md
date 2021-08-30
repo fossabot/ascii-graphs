@@ -5,6 +5,8 @@ You can use it via sbt:
     libraryDependencies += "com.github.mdr" %% "ascii-graphs" % "0.0.3"
 
 # Graph layout
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Fascii-graphs.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Fascii-graphs?ref=badge_shield)
+
 
     import com.github.mdr.ascii.layout._
 
@@ -205,3 +207,7 @@ The label's `[` or `]` bracket must be adjacent (horizontally or vertically) to 
       label ← edge.label
     } println(box + " ==> " + label + " ==> " + otherBox)
   
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmartencassel%2Fascii-graphs.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmartencassel%2Fascii-graphs?ref=badge_large)
